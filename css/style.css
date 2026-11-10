@@ -1,12 +1,12 @@
 
 :root {
-    --primary: #6F4E37;        /* coffee brown */
+    --primary: #6F4E37;        /* brown */
     --secondary: #F5E9DA;      /* cream */
     --accent: #D9822B;         /* savanna orange */
-    --accent-dark: #A55A14;    /* darker orange: readable on white */
+    --accent-dark: #A55A14;    /* darker orange */
     --text-dark: #2B1B12;
     --white: #FFFFFF;
-    --cream-dark: #EBD7BE;     /* zebra stripes / hover rows */
+    --cream-dark: #EBD7BE;     
 
     --font-heading: "Playfair Display", Georgia, serif;
     --font-body: "Open Sans", Arial, sans-serif;
@@ -23,7 +23,7 @@
 
 body {
     font-family: var(--font-body);
-    font-size: 1rem;           /* 16px */
+    font-size: 1rem;           
     line-height: 1.6;
     color: var(--text-dark);
     background-color: var(--white);
@@ -94,7 +94,6 @@ a:hover {
     font-weight: 600;
     text-decoration: none;
     border-radius: var(--radius);
-    /* transition: background-color var(--transition), color var(--transition); */
 }
 
 .main-nav a:hover,
@@ -218,7 +217,7 @@ a:hover {
 }
 
 .card {
-    flex: 1;                   /* each card takes an equal share */
+    flex: 1;                   
     background-color: var(--secondary);
     border-radius: var(--radius);
     overflow: hidden;
@@ -399,7 +398,6 @@ blockquote {
     box-shadow: var(--shadow);
 }
 
-/* Right card only: stay as tall as its content instead of stretching */
 .contact-info {
     align-self: start;
 }
